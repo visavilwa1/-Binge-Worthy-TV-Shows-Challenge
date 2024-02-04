@@ -1,94 +1,28 @@
-/* Global styles */
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Ultra&display=swap');
+
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Dark background for Mr. Robot theme */
+    background-color: #1a1a1a; 
     color: #fff;
 }
 
-h1, h2, p {
-    margin: 10px 0;
-}
-
-a {
-    color: #00f; /* Blue links for contrast */
-}
-
-/* Header */
-header {
-    background-color: #444; /* Slightly darker header */
-    padding: 20px 0;
-}
-
-header h1 {
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-/* Main content */
-main {
-    padding: 30px;
-}
-
-#carousel-container {
-    margin-bottom: 30px;
-}
-
-#carousel {
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: whiite;
     position: relative;
-    overflow: hidden;
 }
 
-#carousel img {
-    width: 100%;
-    height: 300px; /* Adjust as needed */
-    object-fit: cover;
-}
-
-#prev-btn, #next-btn {
+.container{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
 }
 
-#prev-btn {
-    left: 10px;
-}
 
-#next-btn {
-    right: 10px;
-}
 
-#content {
-    text-align: center;
-}
-
-.cta {
-    background-color: #00f;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    /* Adjust styles for smaller screens as needed */
-}

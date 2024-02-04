@@ -1,45 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Mr. Robot</title>
-    <link rel="stylesheet" href="style.css"> </head>
-<body>
-    <header>
-        <h1>Mr. Robot</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Cast</a></li>
-                <li><a href="#">Trailer</a></li>
-            </ul>
-        </nav>
-    </header>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <main>
-        <div id="carousel-container">
-            <div id="carousel">
-                    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2016/09/mr._robot_-_darlene_and_elliot_-_h_-_2016.jpg?w=1296" alt="Mr. Robot image 1">
-                    <img src="https://example.com/image2.jpg" alt="Mr. Robot image 2">
-                    <img src="https://example.com/image3.jpg" alt="Mr. Robot image 3">
-                 </div>
-            <button id="prev-btn">&lt;</button>
-            <button id="next-btn">&gt;</button>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mr.  Robot</title>
+  </head>
+  <body>
+    
+
+
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators"> 
+         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#myCarousel" data-slide-to="1"></li> 
+      </ol>
+       <div class="carousel-inner">
+       <div class="carousel-item active">
+        <div class="container">
+          <h1>Mr. Robot </h1>
+          <p>Elliot Anderson, a super-hacker nerd, with clinical depression and Dissociative Identity Disorder (DID). His alter-ego is named Mr Robot, who is casted in his father’s image, since Elliot has daddy-issues. Through all four seasons, he seeks to recast the unjust social order where top 1% of 1% enjoy all the privileges of the world at the cost of others.</p>
+          <a href="#" class="btn btn-lg btn-primary">Watch Now</a>
         </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container">
+            <h1>Mr. Robot </h1>
+            <p>The plot revolves around Elliot Anderson, a super-hacker nerd, with clinical depression and Dissociative Identity Disorder (DID). His alter-ego is named Mr Robot, who is casted in his father’s image, since Elliot has daddy-issues. Through all four seasons, he seeks to recast the unjust social order where top 1% of 1% enjoy all the privileges of the world at the cost of others</p>
+            <a href="#" class="btn btn-lg btn-primary">Watch Now</a>
+          </div>
+          </div>
+      </div>
+  </div>
 
-        <section id="content">
-            <h2>A gripping psychological thriller</h2>
-            <p>Elliot, a young programmer with a troubled past, becomes a vigilante hacker. He's recruited by a mysterious group to destroy the corporation he works for.</p>
-            <button class="cta">Watch Now</button>
-        </section>
-    </main>
 
-    <footer>
-        </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="script.js"></script> </body>
+
+  </body>
 </html>
