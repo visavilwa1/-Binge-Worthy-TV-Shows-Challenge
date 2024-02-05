@@ -5,15 +5,58 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; 
+    background-color: #080808; 
     color: #fff;
 }
 
+header {
+    background-color: #080808; /* Set a background color */
+    padding: 50px; /* Add some padding for better spacing */
+  }
+  
+  /* Style the navigation list */
+  .navlist {
+    text-align: center; /* Center the navigation items */
+  }
+  
+  /* Style the navigation links */
+  .navlist ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlist li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 15px; /* Add spacing between list items */
+  }
+  
+  .navlist a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+  }
+  
+  /* Change link color on hover for a better interactive feel */
+  .navlist a:hover {
+    color: #ffcc00; /* Change the text color on hover */
+  }
+  
+
+
+
+
+
+
+
 .carousel-item{
     height: 32rem;
-    background: #777;
+    background: #000000;
     color: whiite;
     position: relative;
+   
 }
 
 .container{
@@ -24,5 +67,15 @@ body {
     padding-bottom: 50px;
 }
 
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
 
 
