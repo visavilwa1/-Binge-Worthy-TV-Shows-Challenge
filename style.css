@@ -10,13 +10,13 @@ body {
 }
 
 header {
-    background-color: #080808; /* Set a background color */
-    padding: 50px; /* Add some padding for better spacing */
+    background-color: #080808; 
+    padding: 50px; 
   }
   
-  /* Style the navigation list */
+  
   .navlist {
-    text-align: center; /* Center the navigation items */
+    text-align: center; 
   }
   
   /* Style the navigation links */
