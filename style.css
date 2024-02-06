@@ -28,24 +28,28 @@ header {
   
   .navlist li {
     display: inline-block; /* Display list items horizontally */
-    margin-right: 15px; /* Add spacing between list items */
+    margin-right: 15px; 
   }
   
   .navlist a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Set the text color to white */
-    font-weight: bold; /* Make the text bold */
-    font-size: 16px; /* Adjust the font size */
-    transition: color 0.3s ease; /* Add a smooth color transition */
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold; 
+    font-size: 16px; 
+    transition: color 0.3s ease; 
   }
   
-  /* Change link color on hover for a better interactive feel */
+  
   .navlist a:hover {
-    color: #ffcc00; /* Change the text color on hover */
+    color: #ffcc00;
   }
   
-
-
+#myCarousel {
+  margin-top: 20px;
+}
+#about{
+  margin-top: 20px;
+}
 
 
 
