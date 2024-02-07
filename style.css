@@ -7,6 +7,8 @@ body {
     padding: 0;
     background-color: #080808; 
     color: #fff;
+ padding-left: 35px;
+ padding-right: 35px;
 }
 
 header {
@@ -38,10 +40,14 @@ header {
     font-size: 16px; 
     transition: color 0.3s ease; 
   }
-  
+  h1{
+    font-family: 'Ultra', serif;
+    font-size: 5rem;
+    color: #e10e0e;
+  }
   
   .navlist a:hover {
-    color: #ffcc00;
+    color: #ec1a07;
   }
   
 #myCarousel {
@@ -78,16 +84,38 @@ header {
 }
 
 
+.btn-primary {
+  background-color: #217cd8; 
+  color: #fff; 
+  border: 2px solid #87aeee; 
+}
+
+.btn-primary:hover {
+  background-color: #ef1f1f; 
+  border: 2px solid #000000; 
+}
+
+
 
 
 #about{
   background-color: #1a1919; 
-  padding: 50px 0; 
+  padding: 90px 0px; 
 }
 
-.about-image img {
-  width: 100%; 
-  border-radius: 8px; 
+.about-section {
+  margin-top: 90px; 
+  margin-bottom: 10px; 
+  text-align: center; 
+  
+}
+
+
+
+.about-section p {
+  font-size: 16px; 
+  line-height: 1.6; 
+  padding-top: 0;
 }
 
 
@@ -96,8 +124,10 @@ header {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 3rem;
   margin-bottom: 20px; 
+  font-family: 'Ultra', serif;
+  color: #ec1a07;
 }
 
 p {
@@ -106,8 +136,74 @@ p {
   margin-bottom: 15px; 
 }
 
-.img-fluid {
+
+
+#cast {
+  background-color: #020202;
+}
+
+
+.card {
+  border: 1px solid #110f0f;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  color: #343a40;
+}
+
+
+#cast h2 {
+  text-align: center;
+  color: #ff1500;
+}
+
+
+@media (max-width: 767px) {
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+
+
+
+#trailer {
+  background-color: #050505;
+  padding: 50px 0;
+}
+
+
+#trailer h2 {
+  text-align: center;
+  color: #eb0909;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* Responsive styling */
+@media (max-width: 767px) {
+  #trailer h2 {
+      font-size: 24px;
+  }
 }
 
