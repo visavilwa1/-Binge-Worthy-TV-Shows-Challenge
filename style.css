@@ -49,8 +49,24 @@ header {
 }
 #about{
   margin-top: 20px;
+  background-color: #131414;
+  padding: 40px;
+}
+#about h2 {
+  color: #007bff; /* Header text color */
 }
 
+#about p {
+  font-size: 18px; /* Paragraph text size */
+  line-height: 1.6; /* Line height for better readability */
+  color: #fdf9f9; /* Paragraph text color */
+}
+
+#about img {
+  max-width: 100%; /* Make the image responsive */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Optional: Add spacing below the image */
+}
 
 
 
